@@ -1,3 +1,6 @@
+# Exclude all .env files, which are likely to contain sensitive data. 
+# This specifical file contains information from the db instance to build the 
+# connection with AWS inside our python script.
 .env
 
 # Local .terraform directories
